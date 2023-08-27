@@ -1,0 +1,56 @@
+/* Apply some default styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color for the entire body */
+body {
+    background: #5a022b;
+}
+
+/* Style for a container that holds the input elements */
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the input box */
+.input-box {
+    background: #ffffff;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Style for the input field inside the input box */
+.input-box input {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #555;
+}
+
+/* Style for the eye icon inside the input box */
+.input-box img {
+    width: 35px;
+    cursor: pointer;
+}
+
+/* Style for the message element (password strength indicator) */
+#message {
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    display: none; /* Initially hidden */
+}
